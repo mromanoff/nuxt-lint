@@ -1,6 +1,6 @@
-# nuxt-eslint5
+# nuxt-lint
 
-> My cat&#39;s meow Nuxt.js project
+> Eslint and Stylelint
 
 ## Build Setup
 
