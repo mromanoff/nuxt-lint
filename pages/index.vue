@@ -3,8 +3,8 @@
     <div>
       <div about="bla" />
       <logo
-        :class="true"
         @click="true"
+        :class="true"
         alt4="tst4"
         alt3="tst3"
         alt2="tst2"
