@@ -3,16 +3,16 @@
     <div>
       <div about="bla" />
       <logo
-        @click="true"
         :class="true"
         alt4="tst4"
         alt3="tst3"
         alt2="tst2"
         alt="test"
+        @click="true"
       />
       <h1 class="title">
         nuxt-eslint
-        {{ 'test' }}
+        {{ "test" }}
       </h1>
       <h2 class="subtitle">
         My fantastic Nuxt.js project
