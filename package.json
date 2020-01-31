@@ -9,10 +9,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue,.gql --ignore-path .gitignore .",
-    "lint:autofix": "eslint --ext .js,.vue,.gql --fix --ignore-path .gitignore .",
-    "stylelint": "stylelint '**/*.{css,vue}",
-    "stylelint:autofix": "stylelint '**/*.{css,vue}' --fix",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:autofix": "eslint --ext .js,.vue --fix --ignore-path .gitignore .",
+    "stylelint": "stylelint '**/*.vue",
+    "stylelint:autofix": "stylelint '**/*.vue' --fix",
     "lint:all": "npm run lint && npm run stylelint",
     "lint:all:autofix": "npm run lint:autofix && npm run stylelint:autofix",
     "test": "jest",
@@ -22,6 +22,7 @@
     "*.{js,vue}": "eslint"
   },
   "dependencies": {
+    "@babel/parser": "^7.8.4",
     "@mdi/js": "^4.8.95",
     "@mdi/svg": "^4.8.95",
     "nuxt": "^2.0.0"

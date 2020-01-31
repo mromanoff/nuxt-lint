@@ -18,6 +18,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'space-before-function-paren': ['error', 'never'],
     'arrow-parens': ['error', 'always'],
+    "template-curly-spacing": ["off"],
     'vue/html-self-closing': [
       'error',
       {

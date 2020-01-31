@@ -1,20 +1,21 @@
 <template>
   <component
     :is="name"
-    viewBox="0 0 24 24"
+    view-box="0 0 24 24"
     class="MIcon"
-  >
-  </component>
+  />
 </template>
 
 <script>
 export default {
   name: 'NameIcon',
   components: {
-    'access-point-network': () => import(/* webpackChunkName: "icons" */`@mdi/svg/svg/access-point-network.svg`),
-    'account-alert': () => import(/* webpackChunkName: "icons" */`@mdi/svg/svg/account-alert.svg`),
-    'weather-sunny': () => import(/* webpackChunkName: "icons" */`@mdi/svg/svg/weather-sunny.svg`),
-    'weather-partly-cloudy': () => import(/* webpackChunkName: "icons" */`@mdi/svg/svg/weather-partly-cloudy.svg`),
+    'access-point-network': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/access-point-network.svg'),
+    'account-alert': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/account-alert.svg'),
+    'weather-sunny': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/weather-sunny.svg'),
+    'weather-partly-cloudy': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/weather-partly-cloudy.svg'),
+    'chevron-left': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/chevron-left.svg'),
+    'chevron-right': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/chevron-right.svg'),
   },
   props: {
     name: {
