@@ -35,8 +35,9 @@ export default {
   },
 
   computed: {
-    path: () => {
-      return require('@mdi/js').mdiAccount;
+    path: async() => {
+      const path = await require('@mdi/js')[this.name];
+      return path;
     },
   },
 };

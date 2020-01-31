@@ -16,6 +16,7 @@ export default {
     'weather-partly-cloudy': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/weather-partly-cloudy.svg'),
     'chevron-left': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/chevron-left.svg'),
     'chevron-right': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/chevron-right.svg'),
+    'weather-pouring': () => import(/* webpackChunkName: "icons" */'@mdi/svg/svg/weather-pouring.svg'),
   },
   props: {
     name: {

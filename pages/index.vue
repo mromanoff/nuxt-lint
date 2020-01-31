@@ -14,6 +14,7 @@
       <m-icon2 name="access-point-network" />
       <m-icon2 name="chevron-left" />
       <m-icon2 name="chevron-right" />
+      <m-icon2 name="weather-pouring" />
 
       <p>&nbsp;</p>
 
