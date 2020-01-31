@@ -15,17 +15,15 @@
     "stylelint:autofix": "stylelint '**/*.{css,vue}' --fix",
     "lint:all": "npm run lint && npm run stylelint",
     "lint:all:autofix": "npm run lint:autofix && npm run stylelint:autofix",
-    "test": "jest"
+    "test": "jest",
+    "analize": "nuxt build --analyze"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
+    "@mdi/js": "^4.8.95",
+    "@mdi/svg": "^4.8.95",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
@@ -42,6 +40,8 @@
     "lint-staged": "^10.0.4",
     "stylelint": "^13.0.0",
     "stylelint-config-standard": "^19.0.0",
-    "vue-jest": "^4.0.0-0"
+    "vue-jest": "^4.0.0-0",
+    "vue-svg-loader": "^0.15.0",
+    "vue-template-compiler": "^2.6.11"
   }
 }

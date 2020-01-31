@@ -1,7 +1,20 @@
 <template>
   <div class="container">
     <div>
-      <div about="bla" />
+      @mdi-js
+
+      <m-icon3 name="mdiAccount" />
+
+      <p>&nbsp;</p>
+
+      @mdi-svg
+      <m-icon2 name="account-alert" />
+      <m-icon2 name="weather-sunny" />
+      <m-icon2 name="weather-partly-cloudy" />
+      <m-icon2 name="access-point-network" />
+
+      <p>&nbsp;</p>
+
       <logo
         alt4="tst4"
         :class="true"
@@ -38,11 +51,15 @@
 </template>
 
 <script>
+import MIcon2 from '~/components/MIcon2.vue';
+import MIcon3 from '~/components/MIcon3.vue';
 import Logo from '~/components/Logo.vue';
 
 export default {
   components: {
     Logo,
+    MIcon2,
+    MIcon3,
   },
 
   mounted() {
