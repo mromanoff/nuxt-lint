@@ -25,7 +25,7 @@
     "@babel/parser": "^7.8.4",
     "@mdi/js": "^4.8.95",
     "@mdi/svg": "^4.8.95",
-    "nuxt": "^2.0.0"
+    "nuxt": "^3.4.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
